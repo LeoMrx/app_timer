@@ -131,7 +131,6 @@ export default function App() {
     
   );
   }else if(estado == 'iniciar'){
-      //TODO: Na próxima aula trabalhamos a lógica do timer/contador.
       return(
           <Contador alarmes={alarmeSound} setarMinutos={setarMinutos} setarSegundos={setarSegundos} setarEstado={setarEstado} minutos={minutos} segundos={segundos}></Contador>
       );
